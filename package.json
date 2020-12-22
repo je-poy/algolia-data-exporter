@@ -1,0 +1,22 @@
+{
+  "name": "algolia-data-exporter",
+  "version": "1.0.0",
+  "description": "Index data exporter for Algolia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r dotenv/config index.js"
+  },
+  "keywords": [
+    "algolia",
+    "exporter",
+    "index"
+  ],
+  "author": "Jeff Canale",
+  "license": "ISC",
+  "dependencies": {
+    "algoliasearch": "^4.8.0",
+    "dotenv": "^8.2.0",
+    "moment-timezone": "^0.5.32"
+  }
+}
