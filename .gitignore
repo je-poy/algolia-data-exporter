@@ -1,2 +1,10 @@
+# node dependencies
 node_modules/
+
+#extraction folder
 data/
+
+#environment variables
+.env
+.env.*
+*.local

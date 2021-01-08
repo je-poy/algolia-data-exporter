@@ -3,7 +3,7 @@ const fs = require('fs');
 const algoliasearch = require('algoliasearch');
 const moment = require("moment-timezone")
 
-moment.tz.setDefault("Asia/Manila");
+moment.tz.setDefault(process.env.TIMEZONE);
 
 const client = algoliasearch(process.env.ALGOLIA_APPID, process.env.ALGOLIA_ADMINKEY);
 const index = client.initIndex(process.env.ALGOLIA_INDEX);
