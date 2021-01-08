@@ -1,6 +1,6 @@
 # algolia-data-exporter
 
-Index data Node.js exporter for Algolia.
+Node.js Index data exporter for Algolia.
 
 ## Installation
 
