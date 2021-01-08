@@ -25,4 +25,7 @@ index
         console.log('Your index was successfully exported!');
       }
     );
+  })
+  .catch(error => {
+    console.log(error);
   });
